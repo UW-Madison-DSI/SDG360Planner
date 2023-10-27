@@ -1,0 +1,74 @@
+/******************************************************************************\
+|                                                                              |
+|                                  sdg360.scss                                 |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines the visual styling rules used in this application.       |
+|                                                                              |
+|******************************************************************************|
+|     Copyright (C) 2023, Data Science Institute, University of Wisconsin      |
+\******************************************************************************/
+
+//
+// variables
+//
+
+$wedge-shadow: drop-shadow(10px 10px 20px rgba(0, 0, 0, 0.25));
+$icon-shadow: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.25));
+$icon-size: 100px;
+
+//
+// styles
+//
+
+.sdg360 {
+	position: relative;
+	display: inline-block;
+	background: white;
+
+	.wedge {
+		filter: $wedge-shadow;
+		cursor: pointer;
+
+		path {
+			stroke-opacity: 1.0;
+			stroke-width: 2;
+			stroke-linecap: round;
+		}
+
+		&:hover {
+			transform: scale(1.05);
+
+			path {
+				fill-opacity: 0.75;
+			}
+		}
+	}
+
+	text {
+		font-family: Futura, sans-serif;
+		font-size: 24px;
+		fill: white;
+		stroke: none;
+		opacity: 1.0;
+		text-anchor: middle;
+		dominant-baseline: middle;
+		pointer-events: none;
+		cursor: default;
+	}
+
+	.category {
+		fill: black;
+		// filter: url(#white-background);
+	}
+
+	.icon {
+		position: absolute;
+		width: $icon-size;
+		height: $icon-size;
+		top: 200px;
+		left: 200px;
+		filter: $icon-shadow;
+	}
+}

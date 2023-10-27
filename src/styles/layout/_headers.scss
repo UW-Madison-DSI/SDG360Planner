@@ -1,0 +1,106 @@
+/******************************************************************************\
+|                                                                              |
+|                                 _headers.scss                                |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines the visual styling rules used in this application.       |
+|                                                                              |
+|******************************************************************************|
+|     Copyright (C) 2023, Data Science Institute, University of Wisconsin      |
+\******************************************************************************/
+
+@use "../colors/branding";
+@use "../layout/typography";
+
+//
+// variables
+//
+
+$height: 40px;
+
+//
+// colors
+//
+
+$navbar-color: #f0f0f0;
+$navbar-icon-color: #808080;
+$navbar-text-color: #404040;
+
+//
+// styles
+//
+
+#header {
+	min-height: $height;
+	font-family: typography.$heading-font;
+	font-size: 16px;
+
+	#brand {
+		display: flex;
+
+		.icon {
+			display: flex;
+			min-width: 50px;
+			height: 100%;
+			width: auto;
+			margin-top: 3px;
+		}
+
+		.title {
+			margin: auto 0;
+		}
+	}
+
+	.navbar {
+		background-color: $navbar-color;
+		border: none;
+		height: inherit;
+		min-height: inherit;
+		margin: 0;
+
+		.navbar-brand {
+			padding: 0 15px;
+			color: $navbar-text-color;
+			height: inherit;
+		}
+
+		.navbar-nav {
+			display: inline-block;
+			margin: 0;
+			white-space: nowrap;
+			height: 100%;
+
+			> li {
+				display: inline-flex;
+				height: 100%;
+
+				> a {
+					color: $navbar-text-color;
+					cursor: pointer;
+					padding: 0 15px;
+					min-width: 50px;
+					text-align: center;
+					background: none;
+					margin: auto;
+
+					i {
+						color: $navbar-icon-color;
+					}
+				}
+			}
+		}
+
+		.navbar-right {
+			padding: 2px;
+			
+			button {
+				background: none;
+
+				i {
+					color: $navbar-icon-color;
+				}
+			}
+		}
+	}
+}

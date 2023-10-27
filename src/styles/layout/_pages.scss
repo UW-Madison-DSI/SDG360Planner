@@ -1,0 +1,109 @@
+/******************************************************************************\
+|                                                                              |
+|                                 _pages.scss                                  |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines the visual styling rules used in this application.       |
+|                                                                              |
+|******************************************************************************|
+|     Copyright (C) 2023, Data Science Institute, University of Wisconsin      |
+\******************************************************************************/
+
+@use "../bootstrap/variables";
+@use "../colors/branding";
+
+//
+// variables
+//
+
+$padding-top: 20px;
+$padding-bottom: 50px;
+
+//
+// colors
+//
+
+$footer-border-color: branding.$primary-color;
+
+//
+// styles
+//
+
+#page {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	line-height: 2em;
+	min-height: 100%;
+	overflow-y: auto;
+
+	.contents {
+		padding-top: $padding-top;
+		padding-bottom: $padding-bottom;
+		flex-grow: 1;
+
+		.attention {
+			text-align: center;
+
+			img {
+				width: 200px;
+				height: 200px;
+				margin: 50px;
+			}
+		}
+
+		.figure {
+			max-width: 75%;
+			margin: auto;
+
+			&.small {
+				max-width: 50%;
+			}
+
+			&.very.small {
+				max-width: 25%;
+			}
+		}
+
+		.buttons {
+			button {
+				margin-top: 10px;
+			}
+		}
+
+		ul, ol {
+			padding-inline-start: 20px;
+			
+			li {
+				padding-inline-start: 20px;
+			}
+		}
+	}
+
+	#footer {
+		bottom: 0;
+		width: 100%;
+		padding: 50px;
+		color: lightgrey;
+		background: #494949;
+		border-top: 5px solid $footer-border-color;
+	
+		.container {
+			text-align: center;
+
+			.logo {
+				height: 100px;
+				margin: 10px;
+			}
+
+			a {
+				color: lightgrey;
+
+				&:hover {
+					color: white;
+				}
+			}
+		}
+	}
+}

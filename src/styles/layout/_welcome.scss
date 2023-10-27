@@ -1,0 +1,181 @@
+/******************************************************************************\
+|                                                                              |
+|                                 _welcome.scss                                |
+|                                                                              |
+|******************************************************************************|
+|                                                                              |
+|        This defines the visual styling rules used in this application.       |
+|                                                                              |
+|        Author(s): Abe Megahed                                                |
+|                                                                              |
+|        This file is subject to the terms and conditions defined in           |
+|        'LICENSE.txt', which is part of this source code distribution.        |
+|                                                                              |
+|******************************************************************************|
+|     Copyright (C) 2023, Data Science Institute, University of Wisconsin      |
+\******************************************************************************/
+
+@use "../bootstrap/variables";
+
+//
+// styles
+//
+
+#page.welcome {
+
+	.masthead {
+		display: flex;
+		width: 100%;
+		flex-grow: 1;
+		position: relative;
+		line-height: 2em;
+		margin-top: -20px;
+		margin-bottom: -20px;
+		justify-content: center;
+		// background: linear-gradient(to bottom, #f0f0f0 0%, white 100%);
+		background: linear-gradient(to bottom, #f0f0f0 0%, #d7d7d7 100%);
+
+		.row {
+			padding: 0 20px;
+
+			.diagram {
+				text-align: center;
+				background: none;
+
+				.sdg360 {
+					background: none;
+				}
+			}
+
+			.panel {
+				padding: 20px;
+				margin: 20px;
+				border-radius: 20px;
+				background: none;
+
+				h1 {
+					font-size: 250%;
+				}
+			}
+		}
+	}
+
+	.contents {
+		.section {
+			.well {
+				text-align: center;
+				margin: 50px;
+
+				.start.btn {
+					display: inline-block;
+					background-color: green;
+					padding: 10px 20px;
+					margin: 20px;
+					font-size: 150%;
+					border-radius: 30px;
+
+					&:hover {
+						background-color: darken(green, 5%);
+					}
+
+					&:active {
+						background-color: darken(green, 10%);
+					}
+				}
+			}
+		}
+	}
+}
+
+//
+// large 
+//
+
+@media (min-width: variables.$screen-lg-min) {
+	#page.welcome {
+		.masthead {
+			.splash {
+
+				.brand {
+					span {
+						font-size: 5em;
+					}
+				}
+
+				.tagline, .description {
+					font-size: 1.25em;
+				}
+			}
+		}
+	}
+}
+
+//
+// medium 
+//
+
+@media (max-width: variables.$screen-lg-min) {
+	#page.welcome {
+		.masthead {
+			.splash {
+
+				.brand {
+					span {
+						font-size: 4em;
+					}
+				}
+
+				.tagline, .description {
+					font-size: 1.25em;
+				}
+			}
+		}
+	}
+}
+
+//
+// small
+//
+
+@media (max-width: variables.$screen-sm-min) {
+	#page.welcome {
+		.masthead {
+			.splash {
+				width: 100%;
+				padding: 10% 10px;
+				margin: 0;
+				border-radius: 0;
+
+				.logo {
+					img {
+						width: 200px;
+						height: 150px;
+						margin-bottom: 0;
+					}
+				}
+
+				.brand {
+					span {
+						font-size: 3em;
+					}
+				}
+
+				.tagline, .description {
+					font-size: 1.25em;
+				}
+			}
+		}
+	}
+}
+
+//
+// extra small styles
+//
+
+@media (max-width: variables.$screen-xs-min) {
+	#page.welcome {
+		.row {
+			max-width: 100%;
+		}
+	}
+}

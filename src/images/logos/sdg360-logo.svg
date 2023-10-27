@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512px" height="512px" viewBox="0 50 512 512">
+	<g transform="translate(256, 256)">
+		<g class="wedge" fill="#ea1d2d" stroke="#ea1d2d">
+			<path d="M 5 -100 L 6 -200 L 67 -189 L 31 -95 L 5 -100"></path>
+		</g>
+		<g class="wedge" fill="#d19f2a" stroke="#d19f2a">
+			<path d="M 41 -91 L 78 -184 L 130 -152 L 64 -77 L 41 -91"></path>
+		</g>
+		<g class="wedge" fill="#2d9a47" stroke="#2d9a47">
+			<path d="M 71 -70 L 139 -144 L 176 -94 L 87 -49 L 71 -70"></path>
+		</g>
+		<g class="wedge" fill="#c22033" stroke="#c22033">
+			<path d="M 92 -40 L 182 -84 L 199 -24 L 99 -14 L 92 -40"></path>
+		</g>
+		<g class="wedge" fill="#ef412a" stroke="#ef412a">
+			<path d="M 100 -4 L 200 -12 L 194 49 L 97 23 L 100 -4"></path>
+		</g>
+		<g class="wedge" fill="#00add8" stroke="#00add8">
+			<path d="M 95 32 L 191 60 L 163 116 L 83 56 L 95 32"></path>
+		</g>
+		<g class="wedge" fill="#fdb714" stroke="#fdb714">
+			<path d="M 77 64 L 156 125 L 110 167 L 57 82 L 77 64"></path>
+		</g>
+		<g class="wedge" fill="#8f1838" stroke="#8f1838">
+			<path d="M 48 88 L 100 173 L 43 195 L 23 97 L 48 88"></path>
+		</g>
+		<g class="wedge" fill="#f36e24" stroke="#f36e24">
+			<path d="M 13 99 L 31 198 L -31 198 L -13 99 L 13 99"></path>
+		</g>
+		<g class="wedge" fill="#e01a83" stroke="#e01a83">
+			<path d="M -23 97 L -43 195 L -100 173 L -48 88 L -23 97"></path>
+		</g>
+		<g class="wedge" fill="#f99d25" stroke="#f99d25">
+			<path d="M -57 82 L -110 167 L -156 125 L -77 64 L -57 82"></path>
+		</g>
+		<g class="wedge" fill="#cd8b2a" stroke="#cd8b2a">
+			<path d="M -83 56 L -163 116 L -191 60 L -95 32 L -83 56"></path>
+		</g>
+		<g class="wedge" fill="#48773c" stroke="#48773c">
+			<path d="M -97 23 L -194 49 L -200 -12 L -100 -4 L -97 23"></path>
+		</g>
+		<g class="wedge" fill="#007dbb" stroke="#007dbb">
+			<path d="M -99 -14 L -199 -24 L -182 -84 L -92 -40 L -99 -14"></path>
+		</g>
+		<g class="wedge" fill="#40ae49" stroke="#40ae49">
+			<path d="M -87 -49 L -176 -94 L -139 -144 L -71 -70 L -87 -49"></path>
+		</g>
+		<g class="wedge" fill="#00558a" stroke="#00558a">
+			<path d="M -64 -77 L -130 -152 L -78 -184 L -41 -91 L -64 -77"></path>
+		</g>
+		<g class="wedge" fill="#1a3668" stroke="#1a3668">
+			<path d="M -31 -95 L -67 -189 L -6 -200 L -5 -100 L -31 -95"></path>
+		</g>
+	</g>
+</svg>

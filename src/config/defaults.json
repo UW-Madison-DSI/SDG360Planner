@@ -1,0 +1,81 @@
+{
+	"application": {
+		"name": "SDG360 Planner",
+		"year": "2023",
+
+		"author": {
+			"name": "Data Science Institute",
+			"url": "http://datascience.wisc.edu"
+		},
+
+		"organization": {
+			"name": "University of Wisconsin-Madison",
+			"url": "http://wisc.edu"
+		}
+	},
+
+	"navbar": {
+		"icon": "images/logos/sdg360-logo.svg",
+		"title": "SDG360 Planner",
+		"navs": {
+			"about": {
+				"text": "About",
+				"icon": "fa fa-info-circle",
+				"href": "#about"
+			},
+			"help": {
+				"text": "Help",
+				"icon": "fa fa-question-circle",
+				"href": "#help"
+			},
+			"contact": {
+				"text": "Contact",
+				"icon": "fa fa-envelope",
+				"href": "#contact"
+			}
+		}
+	},
+
+	"welcome": {
+		"splash": {
+			"image": {
+				"src": "images/logos/hf-logo.svg",
+				"style": {
+					"background-color": "white",
+					"border-radius": "10px"
+				}
+			},
+			"name": {
+				"last": "Explorer"
+			}
+		},
+		"workspaces": [
+			{
+				"name": "Multi-Channel Workspace",
+				"id": "multichannel"
+			},
+			{
+				"name": "Single-Channel Workspace",
+				"id": "singlechannel"
+			}
+		],
+		"tagline": "Data viewer for HistFactory (hf) high energy physics modeling",
+		"image": "images/help/fit/fit.gif",
+		"caption": "hf Explorer Performing a Fit",
+		"workspace_url": "https://www.hepdata.net/record/resource/1935437"
+	},
+
+	"footer": {
+		"image": "images/logos/sdg360-logo.svg"
+	},
+
+	"contact": {
+		"subjects": [
+			"Question",
+			"Comment",
+			"Feature Request",
+			"Bug Report",
+			"Other"
+		]
+	}
+}
