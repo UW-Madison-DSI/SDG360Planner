@@ -26,6 +26,12 @@
 				<h2>What Is The SDG 360 Planner</h2>
 				<p>The SDG 360 planner is a rapid tool that allows you to use the UN Sustainable Goals to improve city governance through improving planning, problem-solving and implementation.
 			</div>
+			<div class="col-sm-6">
+				<div class="figure">
+					<a href="images/screen-shots/wheel-visualization.png" target="_blank" class="lightbox" title="SDG360 Planner"><img src="images/screen-shots/wheel-visualization.png" /></a>
+					<div class="caption">SDG360 Planner</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
