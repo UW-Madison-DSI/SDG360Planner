@@ -124,8 +124,8 @@ export default BaseView.extend({
 		//
 		let theta1 = rotation * Math.PI / 180;
 		let theta2 = theta1 + (sweep * Math.PI / 180);
-		let a = .03;
-		let b = .05;
+		let a = .01;
+		let b = .02;
 
 		let vertices = [{
 			x: Math.round(Math.cos(theta1 + b) * r2),
@@ -206,12 +206,14 @@ export default BaseView.extend({
 	toSVG(x, y, radius) {
 		let el = document.createElementNS('http://www.w3.org/2000/svg', 'g');
 		let sweep = 360 / this.categories.length;
+		let showLabels = true;
 
 		for (let i = 0; i < this.categories.length; i++) {
 			let category = this.categories[i];
 			let color = this.colors[i];
 			let rotation = i * sweep - 90;
-			let wedge = this.toWedge(radius, radius / 2, rotation, category, color, sweep, (i + 1), radius);
+			let label = showLabels? (i + 1) : undefined;
+			let wedge = this.toWedge(radius, radius * .55, rotation, category, color, sweep, label, radius);
 
 			// set wedge colors
 			//
