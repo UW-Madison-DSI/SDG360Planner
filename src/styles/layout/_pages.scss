@@ -44,12 +44,20 @@ $footer-border-color: branding.$primary-color;
 		flex-grow: 1;
 
 		.attention {
+			width: 200px;
+			width: 200px;
 			text-align: center;
+			padding: 20px;
+			margin: auto;
 
 			img {
 				width: 200px;
 				height: 200px;
 				margin: 50px;
+			}
+
+			i {
+				color: goldenrod;
 			}
 		}
 

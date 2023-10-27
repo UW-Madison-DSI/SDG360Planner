@@ -1718,12 +1718,19 @@ span.highlighted {
   flex-grow: 1;
 }
 #page .contents .attention {
+  width: 200px;
+  width: 200px;
   text-align: center;
+  padding: 20px;
+  margin: auto;
 }
 #page .contents .attention img {
   width: 200px;
   height: 200px;
   margin: 50px;
+}
+#page .contents .attention i {
+  color: goldenrod;
 }
 #page .contents .figure {
   max-width: 75%;
