@@ -274,7 +274,7 @@ export default BaseView.extend({
 		let $category = this.$el.find('.category');
 
 		// $icon.attr('src', 'images/sdg360/UN-emblem.svg');
-		// $category.html('');
+		$category.html('');
 		$icon.hide();
 
 		// add bouncing animation
