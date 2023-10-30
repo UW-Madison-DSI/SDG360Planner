@@ -10,7 +10,7 @@ SDG360 Thinking app is an interactive web based tool for designing sustainabilit
 
 <div align="center">
     <img src="./images/screen-shots/sdg360.png" style="width:75%; border:2px solid lightgrey" />
-    <div><i>SDG360 Planner</i></div>
+    <div><i>SDG360 Thinking</i></div>
 </div>
 
 <!-- LICENSE -->
