@@ -4,7 +4,7 @@
 		</div>
 		<div class="col-sm-6">
 			<div class="panel">
-				<h1>SDG360 Planner</h1>
+				<h1>SDG360 Thinking</h1>
 				
 				<p>SDG 360 Thinking is an interactive web-based tool to help you to achieve your sustainability goals.</p>
 
@@ -25,13 +25,13 @@
 			<div class="col-sm-6">
 				<h2>What is SDG 360 Thinking</h2>
 				<p>The SDG 360 Thinking APP is a rapid took that allows you to align your work with the UN Sustainable Development Goals and instantly create customized visualizations that everyone can understand. </p>
-
-				<a href="documents/360-thinking-in-local-governance.pdf" target="_blank"><button class="btn btn-primary">Learn more about 360 thinking</button></a>
 			</div>
-			<div class="col-sm-6">
-				<div class="figure">
-					<a href="images/screen-shots/wheel-visualization.png" target="_blank" class="lightbox" title="SDG360 Planner"><img src="images/screen-shots/wheel-visualization.png" /></a>
-					<div class="caption">SDG360 Planner</div>
+			<div class="col-sm-6" style="display:flex">
+				<div class="attention" style="margin:auto">
+					<a href="documents/360-thinking-in-local-governance.pdf" target="_blank">
+						<i class="fa fa-3x fa-file"></i>
+						<label>360 Thinking in Local Governance</label>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -45,8 +45,8 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="figure">
-					<a href="images/screen-shots/matrix-analysis.png" target="_blank" class="lightbox" title="Matrix Analysis"><img src="images/screen-shots/matrix-analysis.png" /></a>
-					<div class="caption">Matrix Analysis</div>
+					<a href="images/screen-shots/wheel-visualization.png" target="_blank" class="lightbox" title="SDG360 Planner"><img src="images/screen-shots/wheel-visualization.png" /></a>
+					<div class="caption">SDG360 Planner</div>
 				</div>
 			</div>
 		</div>
@@ -59,9 +59,9 @@
 				<p>You will gain insights about synergies, optimization and equity. The tool will enable you to produce customized visualizations for your community, and to identify best practices, solutions and innovations from other settings.</p>
 			</div>
 			<div class="col-sm-6">
-				<div class="attention">
-					<i class="fa fa-5x fa-lightbulb"></i>
-					<h2>Gain Insights</h2>
+				<div class="figure">
+					<a href="images/screen-shots/matrix-analysis.png" target="_blank" class="lightbox" title="Matrix Analysis"><img src="images/screen-shots/matrix-analysis.png" /></a>
+					<div class="caption">Matrix Analysis</div>
 				</div>
 			</div>
 		</div>
@@ -80,6 +80,31 @@
 						Get Started!
 					</button>
 				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<h2>Collaborators</h2>
+		<p>This project is a collaboration between the following participants: </p>
+		<div class="row">
+			<div class="col-sm-4">
+				<a href="https://datascience.wisc.edu" target="_blank">
+					<div class="inline-photo" style="background-image:url(images/collaborators/mcardle.jpg)"></div>
+					<label class="caption">Data Science Institute</label>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="https://humanecology.wisc.edu" target="_blank">
+					<div class="inline-photo" style="background-image:url(images/collaborators/nancy-nicholas.jpg)"></div>
+					<label class="caption">UW-Madison School of Human Ecology</label>
+				</a>
+			</div>
+			<div class="col-sm-4">
+				<a href="https://univercity.wisc.edu" target="_blank">
+					<div class="inline-photo" style="background-image:url(images/collaborators/social-sciences.jpg)"></div>
+					<label class="caption">UniverCity Alliance</label>
+				</a>
 			</div>
 		</div>
 	</div>

@@ -1,6 +1,6 @@
 {
 	"application": {
-		"name": "SDG360 Planner",
+		"name": "SDG360 Thinking",
 		"year": "2023",
 
 		"author": {
@@ -16,7 +16,7 @@
 
 	"navbar": {
 		"icon": "images/logos/sdg360-logo.svg",
-		"title": "SDG360 Planner",
+		"title": "SDG360 Thinking",
 		"navs": {
 			"about": {
 				"text": "About",
@@ -34,35 +34,6 @@
 				"href": "#contact"
 			}
 		}
-	},
-
-	"welcome": {
-		"splash": {
-			"image": {
-				"src": "images/logos/hf-logo.svg",
-				"style": {
-					"background-color": "white",
-					"border-radius": "10px"
-				}
-			},
-			"name": {
-				"last": "Explorer"
-			}
-		},
-		"workspaces": [
-			{
-				"name": "Multi-Channel Workspace",
-				"id": "multichannel"
-			},
-			{
-				"name": "Single-Channel Workspace",
-				"id": "singlechannel"
-			}
-		],
-		"tagline": "Data viewer for HistFactory (hf) high energy physics modeling",
-		"image": "images/help/fit/fit.gif",
-		"caption": "hf Explorer Performing a Fit",
-		"workspace_url": "https://www.hepdata.net/record/resource/1935437"
 	},
 
 	"footer": {

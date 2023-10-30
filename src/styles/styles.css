@@ -1595,6 +1595,17 @@ canvas {
   height: 40px;
 }
 
+.inline-photo {
+  height: 200px;
+  background-position: center;
+  size: center;
+}
+
+label.caption {
+  font-size: 16px;
+  font-style: normal;
+}
+
 .overlay {
   display: flex;
   flex-direction: column;
@@ -1729,8 +1740,8 @@ span.highlighted {
   height: 200px;
   margin: 50px;
 }
-#page .contents .attention i {
-  color: goldenrod;
+#page .contents .attention label {
+  line-height: 1.25em;
 }
 #page .contents .figure {
   max-width: 75%;

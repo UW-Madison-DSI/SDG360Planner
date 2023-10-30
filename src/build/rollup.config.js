@@ -3,7 +3,7 @@ export default {
 
 	output: {
 		format: 'es',
-		dir: '../../sdg360-planner-built/scripts',
+		dir: '../../sdg360-thinking-built/scripts',
 		inlineDynamicImports: false,
 		chunkFileNames: '[name].js'
 	},

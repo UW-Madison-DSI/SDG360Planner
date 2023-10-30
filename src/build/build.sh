@@ -1,7 +1,7 @@
 # define directories
 #
-src=../../sdg360-planner
-dest=../../sdg360-planner-built
+src=../../sdg360-thinking
+dest=../../sdg360-thinking-built
 
 #
 # functions
