@@ -4,12 +4,12 @@
 	</div>
 </p>
 
-# SDG360 Planner
+# SDG360 Thinking
 
-SDG360 Planner is an interactive web based tool for designing sustainability plans using the SDG360 methodology.
+SDG360 Thinking app is an interactive web based tool for designing sustainability plans using the SDG360 methodology.
 
 <div align="center">
-    <img src="./images/screen-shots/sdg360-planner.png" style="width:75%; border:2px solid lightgrey" />
+    <img src="./images/screen-shots/sdg360.png" style="width:75%; border:2px solid lightgrey" />
     <div><i>SDG360 Planner</i></div>
 </div>
 
