@@ -1598,7 +1598,7 @@ canvas {
 .inline-photo {
   height: 200px;
   background-position: center;
-  size: center;
+  background-size: cover;
 }
 
 label.caption {
