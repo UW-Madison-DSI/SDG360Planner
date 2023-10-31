@@ -1,11 +1,10 @@
-<div class="masthead">
+<div class="masthead" style="background-image:url('images/backgrounds/earth.jpg'); background-size:cover" >
 	<div class="row">
 		<div class="col-sm-6 diagram">
 		</div>
 		<div class="col-sm-6">
-			<div class="panel">
-				<h1>SDG360 Thinking</h1>
-				
+			<h1 style="font-size:250%; color:white; margin:20px; margin-top:30px">SDG360 Thinking</h1>
+			<div class="panel" style="background:rgba(255,255,255,0.8)">
 				<p>SDG 360 Thinking is an interactive web-based tool to help you to achieve your sustainability goals.</p>
 
 				<p>By using this tool you will:</p>
@@ -28,8 +27,8 @@
 			</div>
 			<div class="col-sm-6" style="display:flex">
 				<div class="attention" style="margin:auto">
-					<a href="documents/360-thinking-in-local-governance.pdf" target="_blank">
-						<i class="fa fa-3x fa-file"></i>
+					<a href="https://oxfordre.com/economics/display/10.1093/acrefore/9780190625979.001.0001/acrefore-9780190625979-e-831" target="_blank">
+						<img src="images/sdg360/360.png" />
 						<label>360 Thinking in Local Governance</label>
 					</a>
 				</div>
@@ -45,8 +44,8 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="figure">
-					<a href="images/screen-shots/wheel-visualization.png" target="_blank" class="lightbox" title="SDG360 Planner"><img src="images/screen-shots/wheel-visualization.png" /></a>
-					<div class="caption">SDG360 Planner</div>
+					<a href="images/screen-shots/wheel-visualization.png" target="_blank" class="lightbox" title="SDG 360 Wheel Analysis"><img src="images/screen-shots/wheel-visualization.png" /></a>
+					<div class="caption">SDG 360 Wheel Analysis</div>
 				</div>
 			</div>
 		</div>
@@ -60,8 +59,8 @@
 			</div>
 			<div class="col-sm-6">
 				<div class="figure">
-					<a href="images/screen-shots/matrix-analysis.png" target="_blank" class="lightbox" title="Matrix Analysis"><img src="images/screen-shots/matrix-analysis.png" /></a>
-					<div class="caption">Matrix Analysis</div>
+					<a href="images/screen-shots/matrix-analysis.png" target="_blank" class="lightbox" title="SDG 360 Matrix Analysis"><img src="images/screen-shots/matrix-analysis.png" /></a>
+					<div class="caption">SDG 360 Matrix Analysis</div>
 				</div>
 			</div>
 		</div>
@@ -97,7 +96,7 @@
 			<div class="col-sm-4">
 				<a href="https://humanecology.wisc.edu" target="_blank">
 					<div class="inline-photo" style="background-image:url(images/collaborators/nancy-nicholas.jpg)"></div>
-					<label class="caption">UW-Madison School of Human Ecology</label>
+					<label class="caption">School of Human Ecology</label>
 				</a>
 			</div>
 			<div class="col-sm-4">

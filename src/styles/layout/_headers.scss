@@ -23,9 +23,9 @@ $height: 40px;
 // colors
 //
 
-$navbar-color: #f0f0f0;
-$navbar-icon-color: #808080;
-$navbar-text-color: #404040;
+$color: #f0f0f0;
+$icon-color: #808080;
+$text-color: #404040;
 
 //
 // styles
@@ -53,7 +53,7 @@ $navbar-text-color: #404040;
 	}
 
 	.navbar {
-		background-color: $navbar-color;
+		background-color: $color;
 		border: none;
 		height: inherit;
 		min-height: inherit;
@@ -61,7 +61,7 @@ $navbar-text-color: #404040;
 
 		.navbar-brand {
 			padding: 0 15px;
-			color: $navbar-text-color;
+			color: $text-color;
 			height: inherit;
 		}
 
@@ -76,7 +76,7 @@ $navbar-text-color: #404040;
 				height: 100%;
 
 				> a {
-					color: $navbar-text-color;
+					color: $text-color;
 					cursor: pointer;
 					padding: 0 15px;
 					min-width: 50px;
@@ -85,7 +85,7 @@ $navbar-text-color: #404040;
 					margin: auto;
 
 					i {
-						color: $navbar-icon-color;
+						color: $icon-color;
 					}
 				}
 			}
@@ -95,10 +95,11 @@ $navbar-text-color: #404040;
 			padding: 2px;
 			
 			button {
+				color: $text-color;
 				background: none;
 
 				i {
-					color: $navbar-icon-color;
+					color: $icon-color;
 				}
 			}
 		}

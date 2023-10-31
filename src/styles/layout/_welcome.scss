@@ -17,18 +17,51 @@
 
 @use "../bootstrap/variables";
 
+$color: black;
+$brand-color: white;
+$icon-color: #808080;
+$text-color: lightgrey;
+
 //
 // styles
 //
 
 #page.welcome {
 
+	#header {
+		.navbar {
+			background-color: $color;
+
+			#brand {
+				color: $brand-color;
+			}
+
+			.navbar-nav {
+				> li {
+					> a {
+						color: $text-color;
+
+						i {
+							color: $icon-color;
+						}
+					}
+				}
+			}
+
+			.navbar-right {	
+				button {
+					color: $text-color;
+				}
+			}
+		}
+	}
+
 	.masthead {
 		display: flex;
 		width: 100%;
 		flex-grow: 1;
 		position: relative;
-		line-height: 2em;
+		line-height: 1.75em;
 		margin-top: -20px;
 		margin-bottom: -20px;
 		justify-content: center;

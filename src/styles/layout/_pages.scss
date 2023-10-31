@@ -51,12 +51,11 @@ $footer-border-color: branding.$primary-color;
 			margin: auto;
 
 			img {
-				width: 200px;
-				height: 200px;
-				margin: 50px;
+				max-width: 100%;
 			}
 
 			label {
+				margin-top: 5px;
 				line-height: 1.25em;
 			}
 		}

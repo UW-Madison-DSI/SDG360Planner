@@ -384,6 +384,7 @@
 |     Copyright (C) 2023, Data Science Institute, University of Wisconsin      |
 \******************************************************************************/
 .navbar-inverse .navbar-nav > li.active {
+  color: black;
   background-color: #e0e0e0;
 }
 
@@ -1444,6 +1445,7 @@ body[device=phone] h3 {
   padding: 2px;
 }
 #header .navbar .navbar-right button {
+  color: #404040;
   background: none;
 }
 #header .navbar .navbar-right button i {
@@ -1736,11 +1738,10 @@ span.highlighted {
   margin: auto;
 }
 #page .contents .attention img {
-  width: 200px;
-  height: 200px;
-  margin: 50px;
+  max-width: 100%;
 }
 #page .contents .attention label {
+  margin-top: 5px;
   line-height: 1.25em;
 }
 #page .contents .figure {
@@ -1864,7 +1865,7 @@ span.highlighted {
   cursor: default;
 }
 .sdg360 .category {
-  fill: black;
+  fill: white;
 }
 .sdg360 .icon {
   position: absolute;
@@ -2344,12 +2345,27 @@ table tbody tr:not(.first) td.duplicate {
 |******************************************************************************|
 |     Copyright (C) 2023, Data Science Institute, University of Wisconsin      |
 \******************************************************************************/
+#page.welcome #header .navbar {
+  background-color: black;
+}
+#page.welcome #header .navbar #brand {
+  color: white;
+}
+#page.welcome #header .navbar .navbar-nav > li > a {
+  color: lightgrey;
+}
+#page.welcome #header .navbar .navbar-nav > li > a i {
+  color: #808080;
+}
+#page.welcome #header .navbar .navbar-right button {
+  color: lightgrey;
+}
 #page.welcome .masthead {
   display: flex;
   width: 100%;
   flex-grow: 1;
   position: relative;
-  line-height: 2em;
+  line-height: 1.75em;
   margin-top: -20px;
   margin-bottom: -20px;
   justify-content: center;
