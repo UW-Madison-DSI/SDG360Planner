@@ -2384,10 +2384,12 @@ table tbody tr:not(.first) td.duplicate {
   height: 100%;
   background: none;
   display: flex;
+  aspect-ratio: 1;
 }
 #page.welcome .masthead .row .diagram .sdg360 svg {
   width: 100%;
   height: 100%;
+  aspect-ratio: 1;
   min-height: 300px;
   margin: auto;
 }
@@ -2460,6 +2462,9 @@ table tbody tr:not(.first) td.duplicate {
 @media (max-width: 480px) {
   #page.welcome .row {
     max-width: 100%;
+  }
+  #page.welcome .row .diagram {
+    max-height: 300px !important;
   }
 }
 /******************************************************************************\
