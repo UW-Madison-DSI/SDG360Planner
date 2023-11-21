@@ -23,7 +23,7 @@
 		<div class="row">
 			<div class="col-sm-6">
 				<h2>What is SDG 360 Thinking</h2>
-				<p>The SDG 360 Thinking APP is a rapid took that allows you to align your work with the UN Sustainable Development Goals and instantly create customized visualizations that everyone can understand. </p>
+				<p>The SDG 360 Thinking APP is a rapid tool that allows you to align your work with the UN Sustainable Development Goals and instantly create customized visualizations that everyone can understand. </p>
 			</div>
 			<div class="col-sm-6" style="display:flex">
 				<div class="attention" style="margin:auto">

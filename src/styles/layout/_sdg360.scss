@@ -41,7 +41,7 @@ $icon-size: 100px;
 			transform: scale(1.05);
 
 			path {
-				fill-opacity: 0.75;
+				filter: brightness(1.25);
 			}
 		}
 	}

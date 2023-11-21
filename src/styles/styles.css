@@ -1851,7 +1851,7 @@ span.highlighted {
   transform: scale(1.05);
 }
 .sdg360 .wedge:hover path {
-  fill-opacity: 0.75;
+  filter: brightness(1.25);
 }
 .sdg360 text {
   font-family: Futura, sans-serif;
@@ -2377,9 +2377,19 @@ table tbody tr:not(.first) td.duplicate {
 #page.welcome .masthead .row .diagram {
   text-align: center;
   background: none;
+  height: 100%;
 }
 #page.welcome .masthead .row .diagram .sdg360 {
+  width: 100%;
+  height: 100%;
   background: none;
+  display: flex;
+}
+#page.welcome .masthead .row .diagram .sdg360 svg {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  margin: auto;
 }
 #page.welcome .masthead .row .panel {
   padding: 20px;
@@ -2426,6 +2436,9 @@ table tbody tr:not(.first) td.duplicate {
   }
 }
 @media (max-width: 768px) {
+  #page.welcome .masthead .diagram {
+    max-height: 450px !important;
+  }
   #page.welcome .masthead .splash {
     width: 100%;
     padding: 10% 10px;

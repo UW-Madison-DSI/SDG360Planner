@@ -23,7 +23,7 @@ export default BaseView.extend({
 	template: _.template(`
 		<a id="brand" href="#" id="brand" class="active navbar-brand">
 			<img class="icon" src="<%= defaults.navbar.icon %>" />
-			<div class="title"><%= defaults.navbar.title %></div>
+			<div class="title hidden-xs"><%= defaults.navbar.title %></div>
 		</a>
 
 		<% if (defaults.navbar.navs) { %>

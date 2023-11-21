@@ -27,7 +27,7 @@ export default BaseView.extend({
 	className: 'sdg360',
 
 	template: _.template(`
-		<svg width="500" height="500">
+		<svg>
 			<defs>
 				<filter x="-.05" y="0.15" width="1.1" height="0.75" id="white-background">
 					<feFlood flood-color="white"/>
@@ -100,6 +100,10 @@ export default BaseView.extend({
 			let filepath = 'images/sdg360/' + filename;
 			img.src = filepath;
 		}
+
+		window.onresize = () => {
+			this.onAttach();
+		}
 	},
 
 	//
@@ -107,7 +111,13 @@ export default BaseView.extend({
 	//
 
 	onAttach: function() {
-		this.$el.find('svg').append(this.toSVG(250, 250, 200));
+		this.$el.find('svg').empty();
+		let width = this.$el.width();
+		let height = this.$el.height();
+		let x = width / 2;
+		let y = height / 2;
+		let radius = (Math.min(width, height) / 2) - 50;
+		this.$el.find('svg').append(this.toSVG(x, y, radius));
 	},
 
 	//
@@ -266,7 +276,15 @@ export default BaseView.extend({
 
 		// play tick sound
 		//
-		// application.play('tick.mp3');
+		/*
+		if (!this.playing) {
+			application.play('tick.mp3');
+			this.playing = true;
+			window.setTimeout(() => {
+				this.playing = false;
+			}, 50);
+		}
+		*/
 	},
 
 	onMouseLeaveWedge: function(event) {
