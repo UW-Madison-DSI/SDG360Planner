@@ -27,7 +27,7 @@ export default BaseView.extend({
 		</a>
 
 		<% if (defaults.navbar.navs) { %>
-		<ul class="nav navbar-nav">
+		<ul class="nav navbar-nav hidden-xs">
 			<% let keys = Object.keys(defaults.navbar.navs); %>
 			<% for (let i = 0; i < keys.length; i++) { %>
 			<% let key = keys[i]; %>
