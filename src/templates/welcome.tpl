@@ -72,7 +72,7 @@
 				<h2>How do I start?</h2>
 				<p>Use Wheel Analysis to address a priory challenge or implementation strategy. Use Matrix Analysis to evaluate and improve plans to advance equity, environmental care, and economic prosperity.</p>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-6 hidden-xs" style="display:flex">
 				<div class="well">
 					<button class="start btn btn-primary">
 						<i class="fa fa-play"></i>
@@ -87,19 +87,19 @@
 		<h2>Collaborators</h2>
 		<p>This project is a collaboration between the following participants: </p>
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-md-4">
 				<a href="https://datascience.wisc.edu" target="_blank">
 					<div class="inline-photo" style="background-image:url(images/collaborators/mcardle.jpg)"></div>
 					<label class="caption">Data Science Institute</label>
 				</a>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-md-4">
 				<a href="https://humanecology.wisc.edu" target="_blank">
 					<div class="inline-photo" style="background-image:url(images/collaborators/nancy-nicholas.jpg)"></div>
 					<label class="caption">School of Human Ecology</label>
 				</a>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-md-4">
 				<a href="https://univercity.wisc.edu" target="_blank">
 					<div class="inline-photo" style="background-image:url(images/collaborators/social-sciences.jpg)"></div>
 					<label class="caption">UniverCity Alliance</label>

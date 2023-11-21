@@ -116,7 +116,7 @@ export default BaseView.extend({
 		let height = this.$el.height();
 		let x = width / 2;
 		let y = height / 2;
-		let radius = (Math.min(width, height) / 2) - 50;
+		let radius = (Math.min(width, height) / 2) * 0.75;
 		this.$el.find('svg').append(this.toSVG(x, y, radius));
 	},
 

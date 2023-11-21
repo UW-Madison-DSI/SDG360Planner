@@ -59,6 +59,8 @@ $text-color: lightgrey;
 	.masthead {
 		display: flex;
 		width: 100%;
+		max-width: 100%;
+		overflow: hidden;
 		flex-grow: 1;
 		position: relative;
 		line-height: 1.75em;
@@ -95,7 +97,7 @@ $text-color: lightgrey;
 
 			.panel {
 				padding: 20px;
-				margin: 20px;
+				margin: 5%;
 				border-radius: 20px;
 				background: none;
 
@@ -108,10 +110,13 @@ $text-color: lightgrey;
 
 	.contents {
 		.section {
+			display: flex;
+			flex-direction: column;
+
 			.well {
 				text-align: center;
-				margin: 50px;
-
+				margin: auto;
+				
 				.start.btn {
 					display: inline-block;
 					background-color: green;
@@ -224,11 +229,14 @@ $text-color: lightgrey;
 
 @media (max-width: variables.$screen-xs-min) {
 	#page.welcome {
-		.row {
-			max-width: 100%;
+		.masthead {
+			.row {
+				padding: 0;
+				max-width: 100%;
 
-			.diagram {
-				max-height: 300px !important;
+				.diagram {
+					max-height: 300px !important;
+				}
 			}
 		}
 	}

@@ -2365,6 +2365,8 @@ table tbody tr:not(.first) td.duplicate {
 #page.welcome .masthead {
   display: flex;
   width: 100%;
+  max-width: 100%;
+  overflow: hidden;
   flex-grow: 1;
   position: relative;
   line-height: 1.75em;
@@ -2397,16 +2399,20 @@ table tbody tr:not(.first) td.duplicate {
 }
 #page.welcome .masthead .row .panel {
   padding: 20px;
-  margin: 20px;
+  margin: 5%;
   border-radius: 20px;
   background: none;
 }
 #page.welcome .masthead .row .panel h1 {
   font-size: 250%;
 }
+#page.welcome .contents .section {
+  display: flex;
+  flex-direction: column;
+}
 #page.welcome .contents .section .well {
   text-align: center;
-  margin: 50px;
+  margin: auto;
 }
 #page.welcome .contents .section .well .start.btn {
   display: inline-block;
@@ -2462,10 +2468,11 @@ table tbody tr:not(.first) td.duplicate {
   }
 }
 @media (max-width: 480px) {
-  #page.welcome .row {
+  #page.welcome .masthead .row {
+    padding: 0;
     max-width: 100%;
   }
-  #page.welcome .row .diagram {
+  #page.welcome .masthead .row .diagram {
     max-height: 300px !important;
   }
 }
