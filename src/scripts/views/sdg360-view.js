@@ -238,7 +238,7 @@ export default BaseView.extend({
 		let text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
 		$(text).attr({
 			class: 'category',
-			y: 230
+			y: radius + 30
 		});
 		el.appendChild(text);
 
